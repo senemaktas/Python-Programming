@@ -21,35 +21,39 @@ option5=input("Please enter maximum number of characters:")
 passLen=random.randint(int(option4),int(option5))
 print("parola uzunluğu: ",passLen)
 
-def createPass(passLen):
-    
-    #According to the answers given, it is an empty list that will contain the elements that may be the password.
-    PasswordElements=[]
+def createPass():
 
-    if (option1=='Y'):
-        continue
-        PasswordElements += num
+    #According to the answers given, it is an empty list that will contain the elements that may be the password.
+    PasswordElements = list()
+
+    while XXXXXXXXXXXX: 
+
+        if (option1=='N'):
+            PasswordElements.extend(num)
+            continue
         
-    elif (option2=='Y'):
-        continue
-        PasswordElements += lett
+        elif (option2=='N'):
+            PasswordElements.extend(lett)
+            continue
         
-    elif (option3=='Y'):
-        continue
-        PasswordElements += specialchar
-        continue
+        elif (option3=='N'):
+            PasswordElements.extend(specialchar)
+            continue
+
+        else:
+            print("list is empty therefore password won't create.")
     else:
-        print("list is empty therefore password won't create.")
-    
+        pass
+
     print(PasswordElements)
 
     #this empty list is gong to contain new password.
-    passwordNew=[]
+    passwordNew = list()
 
     #create password 
-    random.shuffle(passElement)
-    passwordNew=passwordNew.append(random.choices(passElement,k=passLen))
-    print(passwordNew)
-return passwordNew
+    random.shuffle(PasswordElements)
+    passwordNew = random.choices(PasswordElements,k=passLen)
+    
+    return passwordNew
 
 print("Your new random password: ",createPass())
