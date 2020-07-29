@@ -3,12 +3,6 @@
 from flask import Flask , redirect , url_for #import packages and some functions.
 
 app = Flask(__name__)   #start a instance 
- 
-#define a function that will represent each page and set its URL/Path. Defining the home page of our site
-#micro web framework. pip3 install Flask.
-from flask import Flask
-
-app = Flask(__name__)
 
 # Defining the home page of our site
 @app.route("/")  # this sets the route to this page
@@ -24,15 +18,15 @@ def user(name):
 '''Redirect users to other pages from within your python code. The url_for function takes an argument that is 
 the name of the function that you want to redirect to. "home", the name of the home page, has been written 
 to direct to the main page. When "/ admin" is visited, it is directed to "home". '''
-@app.route("/admin")    #another web page called admin.
-def admin():
+@app.route("/newadmin")    #another web page called admin.
+def newadmin():
     return redirect(url_for("home"))
 
-if __name__ == "__main__":  #main part for website running 
-=======
-@app.route("/<name>")
-def user(name):
-    return f"Hello {name}!"
+#To the "name" parameter defined in the "user" page, "Admin!" value is assigned.
+#When we go to /admin we will redirect to user with the argument "Admin!"
+@app.route("/admin")
+def admin():
+    return redirect(url_for("user", name="Admin!"))  
 
 if __name__ == "__main__":
     app.run()
