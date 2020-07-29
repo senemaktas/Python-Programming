@@ -15,5 +15,5 @@ To run Python programs on the Linux terminal:
 
 
 There are examples with Flask, which is the Python Web Framework:
-- Install Flask : pip3 install Flask
-- Import and use : from flask import Flask
+- Install Flask : `pip3 install Flask`
+- Import and use : `from flask import Flask`
