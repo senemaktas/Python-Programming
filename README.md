@@ -1,7 +1,7 @@
 # Python-Coding
 It includes coding of various algorithms and examples,tricks with Python programming language.
 
-There are examples with the Python framework, Flask.
+There are examples with Flask, which is the Python framework.
 
 To run Python programs on the Linux terminal:
 
