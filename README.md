@@ -13,6 +13,7 @@ To run Python programs on the Linux terminal:
 - And run it as `./<filename>.py`.For example: `./hello.py` . 
 - `python <filename>.py` for Python 2.x  `python3 <filename>.py` for Python 3.x
 
+
 There are examples with Flask, which is the Python Web Framework:
 - Install Flask : pip3 install Flask
 - Import and use : from flask import Flask
