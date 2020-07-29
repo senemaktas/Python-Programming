@@ -1,6 +1,8 @@
 # Python-Coding
 It includes coding of various algorithms and examples,tricks with Python programming language.
 
+There are examples with the Python framework, Flask.
+
 To run Python programs on the Linux terminal:
 
 - Open termnal `CTRL+ALT+T`
