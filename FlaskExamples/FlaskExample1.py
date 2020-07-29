@@ -3,6 +3,15 @@
 from flask import Flask , redirect , url_for #import packages and some functions.
 
 app = Flask(__name__)   #start a instance 
+<<<<<<< HEAD
+=======
+ 
+#define a function that will represent each page and set its URL/Path. Defining the home page of our site
+#micro web framework. pip3 install Flask.
+from flask import Flask
+
+app = Flask(__name__)
+>>>>>>> 4af8df62890b99a354d57fe9ceea982d591510ba
 
 # Defining the home page of our site
 @app.route("/")  # this sets the route to this page
@@ -29,4 +38,8 @@ def admin():
     return redirect(url_for("user", name="Admin!"))  
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     app.run()
+=======
+    app.run()
+>>>>>>> 4af8df62890b99a354d57fe9ceea982d591510ba
