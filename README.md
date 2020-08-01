@@ -17,3 +17,11 @@
 ### There are examples with Flask, which is the Python Web Framework:
 - Install Flask : `pip3 install Flask`
 - Import and use : `from flask import Flask`
+
+***Project layout should look like this:*** <br/>
+Project_name/ <br/>
+├── templates/<br/>
+│   └── base.html<br/>
+└── static/<br/>
+│    └── style.css     
+-https://flask.palletsprojects.com/en/1.1.x/tutorial/layout/
