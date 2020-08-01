@@ -1,7 +1,7 @@
 # Python-Coding
-It includes coding of various algorithms and examples,tricks with Python programming language.
+**It includes coding of various algorithms and examples,tricks with Python programming language.**
 
-To run Python programs on the Linux terminal:
+## To run Python programs on the Linux terminal:
 - Open termnal `CTRL+ALT+T`
 - Update the packages list: `sudo apt update`
 - Install Python3 : `sudo apt-get install python3`
@@ -14,6 +14,6 @@ To run Python programs on the Linux terminal:
 - `python <filename>.py` for Python 2.x  `python3 <filename>.py` for Python 3.x
 
 
-There are examples with Flask, which is the Python Web Framework:
+## There are examples with Flask, which is the Python Web Framework:
 - Install Flask : `pip3 install Flask`
 - Import and use : `from flask import Flask`
