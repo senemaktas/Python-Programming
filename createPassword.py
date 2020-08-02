@@ -5,55 +5,44 @@
 import random
 import string
 
-option1=input("Do you want to include numbers? [Y/N]:")
-num=list(string.digits)
+characters = {'lett': list(string.ascii_letters),
+              'num': list(string.digits), 
+              'punc': list(string.punctuation) }
 
-option2=input("Do you want to include letters? [Y/N]:")
-lett=list(string.ascii_letters)
+def createPass(length, opts, chars):
+    Password = []
+    i = 0
+    while i != length:
+        Password.append(random.choice(chars[random.choice(opts)]))
+        i += 1
+    random.shuffle(Password)
+    Password = ''.join(Password)
+    return Password
 
-option3=input("Do you want to include special characters? [Y/N]:")
-specialchar=list(string.punctuation)
+option1 = input("Do you want to include letters? [Y/N]: ").lower() == 'y'
+option2 = input("Do you want to include numbers? [Y/N]: ").lower() == 'y'
+option3 = input("Do you want to include special characters? [Y/N]: ").lower() == 'y'
 
-option4=input("Please enter minimum number of characters:")
-option5=input("Please enter maximum number of characters:")
+options = []
+if option1:
+    options.append('lett')
+if option2:
+    options.append('num')
+if option3:
+    options.append('punc')
 
-#Random password length is determined from the given values.
-passLen=random.randint(int(option4),int(option5))
-print("parola uzunluğu: ",passLen)
+while True:
+    option4 = input("Please enter minimum number of characters: ")
+    option5 = input("Please enter maximum number of characters: ")
+    try:
+        option4 = int(option4)
+        option5 = int(option5)
+        break
+    except ValueError:
+        print("Please enter a number.")
 
-def createPass():
+passLen = random.randint(option4, option5)
 
-    #According to the answers given, it is an empty list that will contain the elements that may be the password.
-    PasswordElements = list()
+password = createPass(passLen, options, characters)
 
-    while XXXXXXXXXXXX: 
-
-        if (option1=='N'):
-            PasswordElements.extend(num)
-            continue
-        
-        elif (option2=='N'):
-            PasswordElements.extend(lett)
-            continue
-        
-        elif (option3=='N'):
-            PasswordElements.extend(specialchar)
-            continue
-
-        else:
-            print("list is empty therefore password won't create.")
-    else:
-        pass
-
-    print(PasswordElements)
-
-    #this empty list is gong to contain new password.
-    passwordNew = list()
-
-    #create password 
-    random.shuffle(PasswordElements)
-    passwordNew = random.choices(PasswordElements,k=passLen)
-    
-    return passwordNew
-
-print("Your new random password: ",createPass())
+print(f'Your new password: {password}')
