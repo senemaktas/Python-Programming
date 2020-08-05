@@ -1,5 +1,5 @@
 ''' Every process receives the data from the earlier process. This goes on till the end and 
-wraps aroun 1 , so that the first process receives the data from the last process.
+wraps around 1 , so that the first process receives the data from the last process.
 Dynamically received data'''
 
 from mpi4p import MPI
