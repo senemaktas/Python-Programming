@@ -25,3 +25,6 @@ Project_name/ <br/>
 └── static/<br/>
 │    └── style.css     
 -https://flask.palletsprojects.com/en/1.1.x/tutorial/layout/
+
+### Thera are examples with MPI, which is  MPI for Python provides bindings of the Message Passing Interface (MPI) standard for the Python programming language, allowing any Python program to exploit multiple processors.
+- Install: `[sudo] pip install mpi4py` or `[sudo] easy_install mpi4py`
