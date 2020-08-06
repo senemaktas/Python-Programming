@@ -16,7 +16,7 @@
 
 ### There are examples with Flask, which is the Python Web Framework:
 - Install Flask : `pip3 install Flask`
-- Import and use : `from flask import Flask`
+- Import : `from flask import Flask`
 
 ***Project layout should look like this:*** <br/>
 Project_name/ <br/>
@@ -27,4 +27,6 @@ Project_name/ <br/>
 -https://flask.palletsprojects.com/en/1.1.x/tutorial/layout/
 
 ### There are examples with Paralell Programming, for that MPI used which is Python provides bindings of the Message Passing Interface (MPI) standard for the Python programming language, allowing any Python program to exploit multiple processors.
-- Install: `[sudo] pip install mpi4py` 
+- MPI4PY Install : `[sudo] pip/pip3 install mpi4py` or `sudo apt-get install python/python3-mpi4py -y`
+- Import : `from mpi4py import MPI`  
+- Run : `mpiexec -n core_number file_name.py`
