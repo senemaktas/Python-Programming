@@ -26,7 +26,7 @@ Project_name/ <br/>
 │    └── style.css     
 -https://flask.palletsprojects.com/en/1.1.x/tutorial/layout/
 
-### There are examples with Paralell Programming, for that MPI used which is Python provides bindings of the Message Passing Interface (MPI) standard for the Python programming language, allowing any Python program to exploit multiple processors.
+### There are examples with Paralel Programming. MPI allows the Message Passing Interface (MPI) standard for the Python programming language to be connected and allows any Python program to take advantage of multiple processors.
 - MPI4PY Install : `[sudo] pip/pip3 install mpi4py` or `sudo apt-get install python/python3-mpi4py -y`
 - Import : `from mpi4py import MPI`  
 - Run : `mpiexec -n core_number file_name.py`
