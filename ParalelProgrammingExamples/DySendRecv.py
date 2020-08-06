@@ -2,7 +2,7 @@
 wraps aroun 1 , so that the first process receives the data from the last process.
 Dynamically received data'''
 
-from mpi4p import MPI
+from mpi4py import MPI
 import sys
 
 comm=MPI.COMM_WORLD 
