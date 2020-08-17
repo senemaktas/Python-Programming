@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %} User Page {% endblock %}
+
+{% block content %}
+<!--display all of the flashed messages comes up--> 
+{% with messages = get_flashed_messages() %}
+<!--check if there's any to display-->
+  {% if messages %}
+  <!--if there is loop through  them-->
+	 {% for msg in messages %}
+	   <p>{{msg}}</p>
+	 {% endfor %}
+  {% endif %}
+{% endwith %}
+<p>Welcome {{user}} this page is user page</p>
+{% endblock %}
