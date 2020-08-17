@@ -17,6 +17,8 @@
 ### There are examples with Flask, which is the Python Web Framework:
 - Install Flask : `pip3 install Flask`
 - Import : `from flask import Flask`
+- install SQLAlchemy database : `pip install flask-sqlalchemy`
+
 
 ***Project layout should look like this:*** <br/>
 Project_name/ <br/>
