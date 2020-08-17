@@ -4,6 +4,17 @@
 {% block title %}Login Page{% endblock %}
 
 {% block content %}
+<!--display all of the flashed messages comes up--> 
+{% with messages = get_flashed_messages() %}
+<!--check if there's any to display-->
+  {% if messages %}
+  <!--if there is loop through  them-->
+	 {% for msg in messages %}
+	   <p>{{msg}}</p>
+	 {% endfor %}
+  {% endif %}
+{% endwith %}
+
 <form action="#" method="post">
 	<p>Name:</p>
 	<p><input type="text" name="nm"/></p>
