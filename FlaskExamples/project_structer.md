@@ -1,0 +1,13 @@
+spesificProject/
+ __init__.py
+ static/
+ templates/
+  userManagement/
+  adminPanel/
+  dashboard/
+ views/
+  __init__.py
+  userManagement.py
+  adminPanel.py
+  dashboard.py
+ models.py
