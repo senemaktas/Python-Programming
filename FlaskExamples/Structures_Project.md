@@ -17,20 +17,20 @@
 ### Split Structure
 
 - spesificProject/
-  - __init__.py        <br/>
-  - <b>A-userManagement/</b>  <br/>
+  - <b>A-__init__.py <b>   <br/>
+  - <b>B-userManagement/</b>  <br/>
         - __init__.py  <br/>
         - views.py     <br/>
         - static/      <br/>
         - templates/   <br/>
-  - <b>B-adminPanel/</b>      <br/>
+  - <b>C-adminPanel/</b>  <br/>
         -  __init__.py  <br/>
         - views.py      <br/>
         - static/       <br/>
         - templates/    <br/>
-  - <b>C-dashboard/</b>       <br/>
+  - <b>D-dashboard/</b>  <br/>
         - __init__.py   <br/>
         - views.py      <br/>
         - static/       <br/>
         - templates/    <br/>
- - models.py
+  - <b>E-model.py/</b>  <br/>  
