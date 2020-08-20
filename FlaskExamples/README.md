@@ -36,5 +36,6 @@
   - <b>E-model.py/</b>  <br/>  
 
 
-Some useful sources:
+Some useful sources for Flask:
+- https://techwithtim.net/tutorials/flask/
 - http://exploreflask.com/en/latest/blueprints.html
