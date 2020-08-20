@@ -34,3 +34,7 @@
         - static/       <br/>
         - templates/    <br/>
   - <b>E-model.py/</b>  <br/>  
+
+
+Some useful sources:
+- http://exploreflask.com/en/latest/blueprints.html
