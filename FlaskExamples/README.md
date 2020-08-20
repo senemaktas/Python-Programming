@@ -38,6 +38,7 @@
 
 Some useful sources for Flask:
 - https://techwithtim.net/tutorials/flask/
+- https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH
 - http://exploreflask.com/en/latest/blueprints.html
 - https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 - https://medium.com/kodgemisi/flask-sqlalchemy-ile-postgresql-kullanimi-ve-basit-islemler-ea9675404e39
