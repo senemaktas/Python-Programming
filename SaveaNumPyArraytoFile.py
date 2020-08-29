@@ -18,6 +18,7 @@ data = loadtxt('data.csv', delimiter=',')
 # print the array
 print(data)
 
+#------------------------------------------------------------------
 
 # 2. Save NumPy Array to .NPY File (binary)
 from numpy import asarray
@@ -33,6 +34,8 @@ from numpy import load
 data = load('data.npy')
 # print the array
 print(data)
+
+#---------------------------------------------------------------------
 
 # 3. Save NumPy Array to .NPZ File (compressed) 
 from numpy import asarray
