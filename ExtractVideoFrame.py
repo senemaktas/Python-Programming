@@ -1,3 +1,5 @@
+# pip/pip3 install opencv-python
+
 import cv2
 import math
 import matplotlib.pyplot as plt 
@@ -19,3 +21,19 @@ while(cap.isOpened()):
         cv2.imwrite(filename,frame)
 cap.release()
 print("Done!")
+
+# Second way to do that  ------------------------------------------------------
+
+import cv2
+videocap = cv2.VideoCapture('input.mp4')
+success,image = videocap.read()
+count = 0 
+
+while success:
+  cv2.imwrite("frame%d.jpg" % count, image)
+  success,image = videocap.read()
+  print('Read a new frame: ', success)
+  count += 1
+
+# This would capture only one frame per second.
+videocap.set(cv2.CAP_PROP_POS_MSEC,(count*1000))
