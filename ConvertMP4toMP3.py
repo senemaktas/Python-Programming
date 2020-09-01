@@ -6,4 +6,4 @@ Python’s pydub module lets you to audio processing tasks that range from video
 conversion to straight out mixing different files. '''
 from pydub import AudioSegment
 
-AudioSegment.from_file("/home/sidney/Desktop/CopculerKrali_KeyfiBeydeYok.mp4").export("/home/sidney/Desktop//output.mp3", format="mp3")
+AudioSegment.from_file("/home/.../inputVideo.mp4").export("/home/.../output.mp3", format="mp3")
