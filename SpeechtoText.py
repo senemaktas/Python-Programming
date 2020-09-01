@@ -4,7 +4,7 @@
 import speech_recognition as sr
 from pydub import AudioSegment
 
-sound = AudioSegment.from_mp3("/home/sidney/Desktop/output.mp3")
+sound = AudioSegment.from_mp3("/home/.../output.mp3")
 
 sound.export("text.wav" , format="wav")
 
@@ -28,6 +28,6 @@ except sr.UnknownValueError:
 except sr.RequestError as e:
     print("Could not request results from Google Speech Recognition service; {0}".format(e))
 
-text_file = open("/home/sidney/Desktop/sample.txt", "w")  #write mode 
+text_file = open("/home/.../sample.txt", "w")  #write mode 
 n = text_file.write(X)
 text_file.close()
