@@ -15,7 +15,7 @@ r = sr.Recognizer()
 with sr.AudioFile(text_audio) as source:
     textAudio = r.record(source)
 
-X = r.recognize_google(textAudio , duration=40)
+X = r.recognize_google(textAudio)
 
 print(X)
 print(sr.__version__)
