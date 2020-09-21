@@ -28,3 +28,31 @@ Project_name/ <br/>
 └── static/<br/>
 │    └── style.css     
 -https://flask.palletsprojects.com/en/1.1.x/tutorial/layout/
+
+
+### Basics                           
+- variables,numbers,strings,lists
+- dictionary , tuple
+- if,for control blocks
+- functions
+- read,write files
+- modules
+- .......
+
+### intermediate
+- exceptions handling
+- classes , objects
+- inheritance
+- generators
+- list/dict comprehensions
+- sets,command line argparse
+- .......
+
+### advanced
+- multithreading
+- multiprocessing
+- multiprocessing lock & pool
+- unit tests:pytest
+- context managers
+- ......
+- 
