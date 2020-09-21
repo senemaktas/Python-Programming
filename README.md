@@ -55,4 +55,3 @@ Project_name/ <br/>
 - unit tests:pytest
 - context managers
 - ......
-- 
