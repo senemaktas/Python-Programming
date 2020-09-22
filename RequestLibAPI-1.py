@@ -1,5 +1,7 @@
 # https://www.dataquest.io/blog/python-api-tutorial/
 # install request library: pip/pip3 install requests or conda install requests
+''' There are many libraries to make an HTTP request in Python, which are httplib, urllib, httplib2 , treq, etc., but requests are the simplest
+and most well-documented libraries among them all. '''
 
 import requests  # import python library for making requests and working with APIs
 
