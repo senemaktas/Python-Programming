@@ -2,5 +2,5 @@
 
 from moviepy.editor import *
 
-clip = (VideoFileClip("/home/sidney/Desktop/yazi/attention_process.mp4"))
-clip.write_gif("/home/sidney/Desktop/yazi/attention_process.gif")
+clip = (VideoFileClip("/home/..../video.mp4"))
+clip.write_gif("/home/..../video.gif")
