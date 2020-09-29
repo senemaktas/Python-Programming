@@ -30,28 +30,13 @@ Project_name/ <br/>
 -https://flask.palletsprojects.com/en/1.1.x/tutorial/layout/
 
 
-### Basics                           
-- variables,numbers,strings,lists
-- dictionary , tuple
-- if,for control blocks
-- functions
-- read,write files
-- modules
-- .......
+  |      Basics                           |     Intermediate                        |     Advanced                      |
+  |---------------------------------------|-----------------------------------------|-----------------------------------|
+  |  - variables,numbers,strings,lists    |  - exceptions handling                  |  - multithreading                 |
+  |  - dictionary , tuple                 |  - classes , objects                    |  - multiprocessing                |
+  |  - if,for control blocks              |  - inheritance                          |  - multiprocessing lock & pool    |
+  |  - functions                          |  - generators                           |  - unit tests:pytest              |
+  |  - read,write files                   |  - list/dict comprehensions             |  - context managers               |
+  |  - modules                            |  - sets,command line argparse           |  - ......                         |
+  |  - .......                            |  - .......                              |  - ......                         |
 
-### intermediate
-- exceptions handling
-- classes , objects
-- inheritance
-- generators
-- list/dict comprehensions
-- sets,command line argparse
-- .......
-
-### advanced
-- multithreading
-- multiprocessing
-- multiprocessing lock & pool
-- unit tests:pytest
-- context managers
-- ......
