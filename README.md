@@ -1,5 +1,4 @@
 ## Python-Coding
-**It includes coding of various algorithms and examples,tricks with Python programming language.**
 
 ### To run Python programs on the Linux terminal:
 - Open termnal `CTRL+ALT+T`
@@ -12,6 +11,17 @@
 - Make the script executable by `chmod +x  <filename>.py`.
 - And run it as `./<filename>.py`.For example: `./hello.py` . 
 - `python <filename>.py` for Python 2.x  `python3 <filename>.py` for Python 3.x
+
+
+  |      Basics                           |     Intermediate                        |     Advanced                      |
+  |---------------------------------------|-----------------------------------------|-----------------------------------|
+  |  - variables,numbers,strings,lists    |  - exceptions handling                  |  - multithreading                 |
+  |  - dictionary , tuple                 |  - classes , objects                    |  - multiprocessing                |
+  |  - if,for control blocks              |  - inheritance                          |  - multiprocessing lock & pool    |
+  |  - functions                          |  - generators                           |  - unit tests:pytest              |
+  |  - read,write files                   |  - list/dict comprehensions             |  - context managers               |
+  |  - modules                            |  - sets,command line argparse           |  - ......                         |
+  |  - .......                            |  - .......                              |  - ......                         |
 
 
 ### There are examples with Flask, which is the Python Web Framework:
@@ -28,15 +38,3 @@ Project_name/ <br/>
 └── static/<br/>
 │    └── style.css     
 -https://flask.palletsprojects.com/en/1.1.x/tutorial/layout/
-
-
-  |      Basics                           |     Intermediate                        |     Advanced                      |
-  |---------------------------------------|-----------------------------------------|-----------------------------------|
-  |  - variables,numbers,strings,lists    |  - exceptions handling                  |  - multithreading                 |
-  |  - dictionary , tuple                 |  - classes , objects                    |  - multiprocessing                |
-  |  - if,for control blocks              |  - inheritance                          |  - multiprocessing lock & pool    |
-  |  - functions                          |  - generators                           |  - unit tests:pytest              |
-  |  - read,write files                   |  - list/dict comprehensions             |  - context managers               |
-  |  - modules                            |  - sets,command line argparse           |  - ......                         |
-  |  - .......                            |  - .......                              |  - ......                         |
-
