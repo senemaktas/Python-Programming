@@ -19,3 +19,10 @@ while i <=100:
   i += 1
   
  print("""\n*** {} times (3,2) came. *** """.format((j-1)))     
+
+
+
+# ----------------------------------------------------------------------------
+
+# ------template----.format() method--positional_arguments------
+print(' {0} {1} cost ${2} ' .format(6 , 'bananas' , 1.74))
