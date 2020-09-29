@@ -18,4 +18,4 @@ while i <=100:
      print("""Try {}: \t({},{}) """.format(i,arr[0],arr[1]))
   i += 1
   
- print("""\n*** {} kere (3,2) geldi *** """.format((j-1)))     
+ print("""\n*** {} times (3,2) came. *** """.format((j-1)))     
