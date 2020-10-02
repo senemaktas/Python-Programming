@@ -13,6 +13,7 @@
 - `python <filename>.py` for Python 2.x  `python3 <filename>.py` for Python 3.x
 
 
+
   |      Basics                           |     Intermediate                        |     Advanced                      |
   |---------------------------------------|-----------------------------------------|-----------------------------------|
   |  - variables,numbers,strings,lists    |  - exceptions handling                  |  - multithreading                 |
@@ -22,6 +23,7 @@
   |  - read,write files                   |  - list/dict comprehensions             |  - context managers               |
   |  - modules                            |  - sets,command line argparse           |  - ......                         |
   |  - .......                            |  - .......                              |  - ......                         |
+
 
 
 ### There are examples with Flask, which is the Python Web Framework:
@@ -38,3 +40,7 @@ Project_name/ <br/>
 └── static/<br/>
 │    └── style.css     
 -https://flask.palletsprojects.com/en/1.1.x/tutorial/layout/
+
+Sources :
+- https://www.w3schools.com/python/  
+- twitter : @TechParida
