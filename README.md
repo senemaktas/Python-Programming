@@ -13,7 +13,7 @@
 - `python <filename>.py` for Python 2.x  `python3 <filename>.py` for Python 3.x
 
 
-#### Create wirtual environment
+#### Create virtual environment
 - First install this : `pip3 install virtualenv`
 - Open a folder and go to inside it. And create an envirenoment inside of your folder: `virtualenv env`
 - Activate the environment (for GNU/Linux and Mac): `source env/bin/activate`  (for Windows) : `\env\Scripts\activate.bat`
