@@ -47,6 +47,3 @@ Project_name/ <br/>
 │    └── style.css     
 -https://flask.palletsprojects.com/en/1.1.x/tutorial/layout/
 
-Sources :
-- https://www.w3schools.com/python/  
-- twitter : @TechParida
