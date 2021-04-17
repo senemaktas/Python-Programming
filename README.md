@@ -47,3 +47,9 @@ Project_name/ <br/>
 │    └── style.css     
 -https://flask.palletsprojects.com/en/1.1.x/tutorial/layout/
 
+
+### Python Debugging With Pdb
+- Import : `import pdb;` 
+- Insert the following code at the location where you want to break into the debugger:` pdb.set_trace()`
+
+
