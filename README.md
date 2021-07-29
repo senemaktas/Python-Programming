@@ -53,7 +53,7 @@ Project_name/ <br/>
 - Insert the following code at the location where you want to break into the debugger:` pdb.set_trace()`
 
 ### Something useful
-- # iterate over files in that directory - from 0 to N. frame!!!!for filename in os.listdir(directory):
+- iterate over files in that directory - from 0 to N. frame!!!!for filename in os.listdir(directory):
 ``` python:
 import os
 import re
