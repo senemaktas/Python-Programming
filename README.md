@@ -18,6 +18,8 @@
 - Open a folder and go to inside it. And create an envirenoment inside of your folder: `virtualenv env`
 - Activate the environment (for GNU/Linux and Mac): `source env/bin/activate`  (for Windows) : `\env\Scripts\activate.bat`
 - When your virtual env is active create requirement file for dependencies: `pip freeze > requirements.txt`
+- See the txt file : `cat requirements.txt`
+- İnstall the all necessary packages : `pip install -r requirements.txt`
 
 
   |      Basics                           |     Intermediate                        |     Advanced                      |
