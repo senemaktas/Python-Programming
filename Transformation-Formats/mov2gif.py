@@ -24,6 +24,6 @@ gif_name = parts[0] + ".gif"
 clip.write_gif(gif_name, fps=30)
 
 
-INPUT_MOV_FILENAME = "../1-extra_stuff/datasets/Cognitiwe_ornek_video_kisitli_alan.mov"
+INPUT_MOV_FILENAME = "../X.mov"
 
 OUTPUT_GIF_FILENAME = "./output.gif"
